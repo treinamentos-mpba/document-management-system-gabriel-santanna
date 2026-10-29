@@ -7,9 +7,9 @@ agent: agent
 
 # Scaffold de camada do frontend
 
-Crie a estrutura completa de uma camada para o recurso `${input:recurso:nome do recurso}` seguindo a Clean Architecture simples do projeto.
+Crie os componentes visuais na pasta `frontend/src/components/${input:recurso}`.
 
-Gere os arquivos em `backend/src`:
+Gere os arquivos em `backend/src` e os componentes visuais em `frontend/src/components/${input:recurso}`:
 
 1. `routes/${input:recurso}.routes.js` - define os endpoints e delega ao controller.
 2. `controllers/${input:recurso}.controller.js` - trata entrada/saída HTTP e validação básica.
